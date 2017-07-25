@@ -17,7 +17,8 @@ namespace dotnetmvc
                 .UseIISIntegration()
                 .UseStartup<Startup>()
                 .Build();
-
+            
+            // Run this thing
             host.Run();
         }
     }
