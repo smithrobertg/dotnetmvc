@@ -18,7 +18,7 @@ namespace dotnetmvc
                 .UseStartup<Startup>()
                 .Build();
             
-            // Run this thing
+            // Run this thing please
             host.Run();
         }
     }
